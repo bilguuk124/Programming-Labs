@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Lab5.data.Semester</OriginalElement>
+  <nodes>
+    <node x="1720.0" y="510.0">Lab5.exceptions.GroupNotFoundException</node>
+    <node x="497.35887412040665" y="-280.27756059421495">Lab5.commands.InfoCommand</node>
+    <node x="263.35887412040665" y="-205.27756059421495">Lab5.data.Coordinates</node>
+    <node x="880.0" y="330.0">Lab5.data.StudyGroup</node>
+    <node x="2785.3588741204067" y="-280.27756059421495">Lab5.commands.HelpCommand</node>
+    <node x="2333.25" y="160.0">java.util.AbstractCollection</node>
+    <node x="1113.3588741204067" y="-280.27756059421495">Lab5.commands.FilterByFormOfEducationCommand</node>
+    <node x="1028.0" y="330.0">java.lang.Enum</node>
+    <node x="2057.3588741204067" y="-280.27756059421495">Lab5.commands.RemoveByIdCommand</node>
+    <node x="2941.3588741204067" y="-280.27756059421495">Lab5.commands.PrintFieldDescendingTransferredStudents</node>
+    <node x="58.358874120406654" y="-205.27756059421495">Lab5.utility.CommandManager</node>
+    <node x="2591.75" y="240.0">java.lang.Cloneable</node>
+    <node x="1460.0" y="510.0">Lab5.exceptions.ScriptRecursionException</node>
+    <node x="2441.25" y="80.0">java.util.Collection</node>
+    <node x="2545.25" y="160.0">java.util.Set</node>
+    <node x="9.358874120406654" y="-280.27756059421495">Lab5.commands.RemoveGreaterCommand</node>
+    <node x="1064.0" y="410.0">Lab5.data.FormOfEducation</node>
+    <node x="1252.0" y="410.0">java.lang.Exception</node>
+    <node x="1620.5887096774193" y="240.0">java.io.Serializable</node>
+    <node x="-170.64112587959335" y="-205.27756059421495">Lab5.utility.CollectionManager</node>
+    <node x="798.3588741204067" y="-205.27756059421495">Lab5.utility.Console</node>
+    <node x="932.0" y="410.0">Lab5.data.Semester</node>
+    <node x="2216.0" y="510.0">Lab5.exceptions.HistoryIsEmptyException</node>
+    <node x="947.3588741204067" y="-205.27756059421495">Lab5.data.Person</node>
+    <node x="1252.0" y="330.0">java.lang.Throwable</node>
+    <node x="1964.0" y="510.0">Lab5.exceptions.MustBeNotEmptyException</node>
+    <node x="1436.0193006970524" y="-490.9005466307349">Lab5.commands.Command</node>
+    <node x="237.35887412040665" y="-280.27756059421495">Lab5.commands.SumOfTransferredStudents</node>
+    <node x="316.0" y="510.0">Lab5.exceptions.NotInDeclaredLimitsException</node>
+    <node x="2395.25" y="240.0">java.util.AbstractSet</node>
+    <node x="2449.25" y="0.0">java.lang.Iterable</node>
+    <node x="2470.25" y="330.0">java.util.HashSet</node>
+    <node x="625.3588741204067" y="-205.27756059421495">Lab5.utility.GroupAsker</node>
+    <node x="653.3588741204067" y="-280.27756059421495">Lab5.commands.AddCommand</node>
+    <node x="876.0" y="510.0">Lab5.exceptions.WrongAmountOfElementsException</node>
+    <node x="2621.3588741204067" y="-280.27756059421495">Lab5.commands.ClearCommand</node>
+    <node x="0.0" y="510.0">Lab5.exceptions.IncorrectInputInScriptException</node>
+    <node x="2492.0" y="410.0">java.util.LinkedHashSet</node>
+    <node x="1405.3588741204067" y="-420.27756059421495">Lab5.commands.AbstractCommand</node>
+    <node x="957.3588741204067" y="-280.27756059421495">Lab5.commands.SaveCommand</node>
+    <node x="1577.3588741204067" y="-280.27756059421495">Lab5.commands.RemoveAnyBySemesterEnum</node>
+    <node x="2261.3588741204067" y="-280.27756059421495">Lab5.commands.UpdateCommand</node>
+    <node x="1184.0" y="510.0">Lab5.exceptions.CollectionIsEmptyException</node>
+    <node x="1421.3588741204067" y="-280.27756059421495">Lab5.commands.ShowCommand</node>
+    <node x="1829.3588741204067" y="-280.27756059421495">Lab5.commands.ExecuteScriptCommand</node>
+    <node x="444.35887412040665" y="-205.27756059421495">Lab5.utility.FileManager</node>
+    <node x="801.3588741204067" y="-280.27756059421495">Lab5.commands.ExitCommand</node>
+    <node x="2468.0" y="510.0">Lab5.utility.CachedLinkedHashSet</node>
+    <node x="932.0" y="240.0">java.lang.Comparable</node>
+    <node x="2433.3588741204067" y="-280.27756059421495">Lab5.commands.AddIfMinCommand</node>
+    <node x="608.0" y="510.0">Lab5.exceptions.SemesterNotFoundException</node>
+    <node x="1088.3588741204067" y="-205.27756059421495">Lab5.Main</node>
+    <node x="-170.64112587959335" y="-280.27756059421495">Lab5.commands.HistoryCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Lab5.exceptions.NotInDeclaredLimitsException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="452.0" y="470.0" />
+      <point x="1272.0" y="470.0" />
+      <point x="-40.0" y="15.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.Set">
+      <point x="13.0" y="-15.0" />
+      <point x="2535.25" y="300.0" />
+      <point x="2581.25" y="300.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.ExitCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="869.3588741204067" y="-320.27756059421495" />
+      <point x="1459.7118152968771" y="-320.27756059421495" />
+      <point x="-29.647058823529505" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.SumOfTransferredStudents" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="357.35887412040665" y="-350.27756059421495" />
+      <point x="1430.0647564733479" y="-350.27756059421495" />
+      <point x="-59.29411764705878" y="15.0" />
+    </edge>
+    <edge source="Lab5.exceptions.MustBeNotEmptyException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="2080.0" y="470.0" />
+      <point x="1352.0" y="470.0" />
+      <point x="40.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.data.FormOfEducation" target="java.lang.Enum">
+      <point x="0.0" y="-15.0" />
+      <point x="1148.0" y="390.0" />
+      <point x="1088.0" y="390.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.lang.Cloneable">
+      <point x="19.0" y="-15.0" />
+      <point x="2587.0" y="380.0" />
+      <point x="2681.75" y="380.0" />
+      <point x="30.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="1312.0" y="310.0" />
+      <point x="1674.5887096774193" y="310.0" />
+      <point x="-18.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.PrintFieldDescendingTransferredStudents" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="3121.3588741204067" y="-370.27756059421495" />
+      <point x="1568.4176976498184" y="-370.27756059421495" />
+      <point x="79.05882352941171" y="15.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.lang.Cloneable">
+      <point x="39.0" y="-15.0" />
+      <point x="2561.25" y="310.0" />
+      <point x="2621.75" y="310.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.Set">
+      <point x="57.0" y="-15.0" />
+      <point x="2625.0" y="390.0" />
+      <point x="2722.25" y="390.0" />
+      <point x="2722.25" y="215.0" />
+      <point x="2605.25" y="215.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.RemoveAnyBySemesterEnum" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="1693.3588741204067" y="-300.27756059421495" />
+      <point x="1499.2412270615832" y="-300.27756059421495" />
+      <point x="9.882352941176578" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.FilterByFormOfEducationCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="1257.3588741204067" y="-300.27756059421495" />
+      <point x="1479.47652117923" y="-300.27756059421495" />
+      <point x="-9.882352941176578" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.HistoryCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="-90.64112587959335" y="-370.27756059421495" />
+      <point x="1410.300050590995" y="-370.27756059421495" />
+      <point x="-79.05882352941171" y="15.0" />
+    </edge>
+    <edge source="Lab5.exceptions.ScriptRecursionException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="1580.0" y="490.0" />
+      <point x="1325.3333333333333" y="490.0" />
+      <point x="13.333333333333258" y="15.0" />
+    </edge>
+    <edge source="Lab5.exceptions.CollectionIsEmptyException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.AddIfMinCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="2517.3588741204067" y="-340.27756059421495" />
+      <point x="1538.770638826289" y="-340.27756059421495" />
+      <point x="49.41176470588243" y="15.0" />
+    </edge>
+    <edge source="java.util.Set" target="java.util.Collection">
+      <point x="0.0" y="-15.0" />
+      <point x="2581.25" y="135.0" />
+      <point x="2537.25" y="135.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Exception" target="java.lang.Throwable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.data.StudyGroup" target="java.lang.Comparable">
+      <point x="0.0" y="-15.0" />
+      <point x="944.0" y="310.0" />
+      <point x="964.0" y="310.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="20.0" y="-15.0" />
+      <point x="1088.0" y="300.0" />
+      <point x="1638.5887096774193" y="300.0" />
+      <point x="-54.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.exceptions.HistoryIsEmptyException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="2332.0" y="460.0" />
+      <point x="1365.3333333333335" y="460.0" />
+      <point x="53.333333333333485" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.UpdateCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="2337.3588741204067" y="-330.27756059421495" />
+      <point x="1528.8882858851125" y="-330.27756059421495" />
+      <point x="39.529411764705856" y="15.0" />
+    </edge>
+    <edge source="Lab5.exceptions.GroupNotFoundException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="1832.0" y="480.0" />
+      <point x="1338.6666666666667" y="480.0" />
+      <point x="26.666666666666742" y="15.0" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.ClearCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="2693.3588741204067" y="-350.27756059421495" />
+      <point x="1548.6529917674654" y="-350.27756059421495" />
+      <point x="59.29411764705878" y="15.0" />
+    </edge>
+    <edge source="Lab5.exceptions.SemesterNotFoundException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="732.0" y="480.0" />
+      <point x="1285.3333333333333" y="480.0" />
+      <point x="-26.666666666666742" y="15.0" />
+    </edge>
+    <edge source="java.util.AbstractCollection" target="java.util.Collection">
+      <point x="0.0" y="-15.0" />
+      <point x="2429.25" y="135.0" />
+      <point x="2473.25" y="135.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.exceptions.IncorrectInputInScriptException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="148.0" y="460.0" />
+      <point x="1258.6666666666667" y="460.0" />
+      <point x="-53.33333333333326" y="15.0" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.AbstractCollection">
+      <point x="-34.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.AbstractSet">
+      <point x="-13.0" y="-15.0" />
+      <point x="2509.25" y="290.0" />
+      <point x="2463.25" y="290.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.RemoveGreaterCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="113.35887412040665" y="-360.27756059421495" />
+      <point x="1420.1824035321713" y="-360.27756059421495" />
+      <point x="-69.17647058823536" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.AddCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="717.3588741204067" y="-330.27756059421495" />
+      <point x="1449.8294623557008" y="-330.27756059421495" />
+      <point x="-39.529411764705856" y="15.0" />
+    </edge>
+    <edge source="Lab5.data.Semester" target="java.lang.Enum">
+      <point x="0.0" y="-15.0" />
+      <point x="988.0" y="390.0" />
+      <point x="1048.0" y="390.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-20.0" y="-15.0" />
+      <point x="1048.0" y="310.0" />
+      <point x="1028.0" y="310.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.RemoveByIdCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="2149.3588741204067" y="-320.27756059421495" />
+      <point x="1519.005932943936" y="-320.27756059421495" />
+      <point x="29.647058823529278" y="15.0" />
+    </edge>
+    <edge source="Lab5.utility.CachedLinkedHashSet" target="java.util.LinkedHashSet">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.InfoCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="565.3588741204067" y="-340.27756059421495" />
+      <point x="1439.9471094145242" y="-340.27756059421495" />
+      <point x="-49.41176470588243" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.ExecuteScriptCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="1933.3588741204067" y="-310.27756059421495" />
+      <point x="1509.1235800027596" y="-310.27756059421495" />
+      <point x="19.764705882352928" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.ShowCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.io.Serializable">
+      <point x="-57.0" y="-15.0" />
+      <point x="2511.0" y="390.0" />
+      <point x="2162.822580645161" y="390.0" />
+      <point x="2162.822580645161" y="310.0" />
+      <point x="1710.5887096774193" y="310.0" />
+      <point x="18.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.AbstractCommand" target="Lab5.commands.Command">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.exceptions.WrongAmountOfElementsException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="1020.0" y="490.0" />
+      <point x="1298.6666666666667" y="490.0" />
+      <point x="-13.333333333333258" y="15.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.HashSet">
+      <point x="-19.0" y="-15.0" />
+      <point x="2549.0" y="390.0" />
+      <point x="2522.25" y="390.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.SaveCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="1025.3588741204067" y="-310.27756059421495" />
+      <point x="1469.5941682380537" y="-310.27756059421495" />
+      <point x="-19.764705882352928" y="15.0" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.Set">
+      <point x="34.0" y="-15.0" />
+      <point x="2497.25" y="215.0" />
+      <point x="2557.25" y="215.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="Lab5.commands.HelpCommand" target="Lab5.commands.AbstractCommand">
+      <point x="0.0" y="-15.0" />
+      <point x="2853.3588741204067" y="-360.27756059421495" />
+      <point x="1558.5353447086418" y="-360.27756059421495" />
+      <point x="69.17647058823513" y="15.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.io.Serializable">
+      <point x="-39.0" y="-15.0" />
+      <point x="2483.25" y="300.0" />
+      <point x="1746.5887096774193" y="300.0" />
+      <point x="54.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="2012.9319510321852" y="-19.449638567977217" />
+  <SelectedNodes>
+    <node>Lab5.commands.InfoCommand</node>
+    <node>Lab5.commands.Command</node>
+    <node>Lab5.data.Coordinates</node>
+    <node>Lab5.commands.SumOfTransferredStudents</node>
+    <node>Lab5.commands.HelpCommand</node>
+    <node>Lab5.utility.GroupAsker</node>
+    <node>Lab5.commands.FilterByFormOfEducationCommand</node>
+    <node>Lab5.commands.AddCommand</node>
+    <node>Lab5.commands.RemoveByIdCommand</node>
+    <node>Lab5.commands.PrintFieldDescendingTransferredStudents</node>
+    <node>Lab5.utility.CommandManager</node>
+    <node>Lab5.commands.ClearCommand</node>
+    <node>Lab5.commands.AbstractCommand</node>
+    <node>Lab5.commands.SaveCommand</node>
+    <node>Lab5.commands.RemoveAnyBySemesterEnum</node>
+    <node>Lab5.commands.UpdateCommand</node>
+    <node>Lab5.commands.ShowCommand</node>
+    <node>Lab5.commands.RemoveGreaterCommand</node>
+    <node>Lab5.commands.ExecuteScriptCommand</node>
+    <node>Lab5.utility.CollectionManager</node>
+    <node>Lab5.utility.FileManager</node>
+    <node>Lab5.utility.Console</node>
+    <node>Lab5.commands.ExitCommand</node>
+    <node>Lab5.data.Person</node>
+    <node>Lab5.commands.AddIfMinCommand</node>
+    <node>Lab5.Main</node>
+    <node>Lab5.commands.HistoryCommand</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
