@@ -7,7 +7,7 @@
 Пурэвсурэн Билгуун <br>
 Группа Р3113 <br> 
 
-Диаграмма классов: Semester.uml или Semester.png
+Диаграмма классов: Semester.uml или Semester.png <br>
 Файлы программ можно найти ./src/Lab5/
 
 
