@@ -7,7 +7,7 @@
 Пурэвсурэн Билгуун <br>
 Группа Р3113 <br> 
 
-Javadoc можете смотреть ./Javadoc/index.html
+Диаграмма классов: Semester.uml или Semester.png
 
 
 
