@@ -1,5 +1,5 @@
 
-!['Itmo Logo'](https://www.ifmo.ru/file/news/4246/itmo_small_blue_eng.png = 150x150)
+!['Itmo Logo'](https://www.ifmo.ru/file/news/4246/itmo_small_blue_eng.png=100x)
 
 
 
